@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AnnotatedServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AnnotatedServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/example.armeria.server.annotated.html">example.armeria.server.annotated</a> &gt; AnnotatedServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.347s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testExceptionHandlerService()</td>
+<td class="success">0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInjectionService()</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMessageConverterService()</td>
+<td class="success">0.066s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPathPatternService()</td>
+<td class="success">0.229s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.verboseExceptions: rate-limit=10 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.preferredIpV4Addresses:  (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.verboseSocketExceptions: false (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.verboseResponses: false (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.useEpoll: false (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.transportType: nio (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.maxNumConnections: 2147483647 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.numCommonWorkers: 24 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.numCommonBlockingTaskThreads: 200 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultMaxRequestLength: 10485760 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultMaxResponseLength: 10485760 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultRequestTimeoutMillis: 10000 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultResponseTimeoutMillis: 15000 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultConnectTimeoutMillis: 3200 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultWriteTimeoutMillis: 1000 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultServerIdleTimeoutMillis: 15000 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultClientIdleTimeoutMillis: 10000 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultPingIntervalMillis: 0 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultMaxServerNumRequestsPerConnection: 0 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultMaxClientNumRequestsPerConnection: 0 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultMaxServerConnectionAgeMillis: 0 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultMaxClientConnectionAgeMillis: 0 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultHttp2InitialConnectionWindowSize: 1048576 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultHttp2InitialStreamWindowSize: 1048576 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultHttp2MaxFrameSize: 16384 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultHttp2MaxStreamsPerConnection: 2147483647 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultHttp2MaxHeaderListSize: 8192 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultHttp1MaxInitialLineLength: 4096 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultHttp1MaxHeaderSize: 8192 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultHttp1MaxChunkSize: 8192 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultUseHttp2Preface: true (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultUseHttp1Pipelining: false (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultBackoffSpec: exponential=200:10000,jitter=0.2 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.defaultMaxTotalAttempts: 10 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.routeCache: maximumSize=4096 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.routeDecoratorCache: maximumSize=4096 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.parsedPathCache: maximumSize=4096 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.headerValueCache: maximumSize=4096 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.cachedHeaders: :authority,:scheme,:method,accept-encoding,content-type (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.fileServiceCache: maximumSize=1024 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.dnsCacheSpec: maximumSize=4096 (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.annotatedServiceExceptionVerbosity: unhandled (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.useJdkDnsResolver: false (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.reportBlockedEventLoop: true (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.validateHeaders: true (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.tlsAllowUnsafeCiphers: false (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.transientServiceOptions:  (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.useLegacyRouteDecoratorOrdering: false (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - Using nio
+[Test worker] INFO com.linecorp.armeria.common.util.SystemInfo - hostname: anseongjin-ui-macbookpro.local (from 'hostname' command)
+[armeria-boss-http-*:64370] INFO com.linecorp.armeria.server.Server - Serving HTTP at /[0:0:0:0:0:0:0:0]:64370 - http://127.0.0.1:64370/
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.useOpenSsl: true (default)
+[Test worker] INFO com.linecorp.armeria.common.Flags - Using OpenSSL: BoringSSL, 0x1010107f
+[Test worker] INFO com.linecorp.armeria.common.Flags - com.linecorp.armeria.dumpOpenSslInfo: false (default)
+[Test worker] INFO com.linecorp.armeria.internal.common.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=81793adf, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/pathPattern/path/armeria#GET] Request: {startTime=2021-06-24T02:51:25.883Z(1624503085883313), length=0B, duration=27456µs(27456197ns), scheme=none+h2c, name=pathVar, headers=[EOS, :method=GET, :path=/pathPattern/path/armeria, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=81793adf, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/pathPattern/path/armeria#GET] Response: {startTime=2021-06-24T02:51:25.897Z(1624503085897879), length=13B, duration=24906µs(24906334ns), totalDuration=39472µs(39472196ns), headers=[:status=200, content-type=text/plain; charset=utf-8, content-length=13]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=b4485804, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/pathPattern/regex/armeria#GET] Request: {startTime=2021-06-24T02:51:25.957Z(1624503085957366), length=0B, duration=1193µs(1193538ns), scheme=none+h2c, name=regex, headers=[EOS, :method=GET, :path=/pathPattern/regex/armeria, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=b4485804, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/pathPattern/regex/armeria#GET] Response: {startTime=2021-06-24T02:51:25.957Z(1624503085957684), length=14B, duration=1227µs(1227661ns), totalDuration=1545µs(1545288ns), headers=[:status=200, content-type=text/plain; charset=utf-8, content-length=14]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=33b992ee, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/pathPattern/glob/armeria#GET] Request: {startTime=2021-06-24T02:51:25.960Z(1624503085960363), length=0B, duration=1134µs(1134274ns), scheme=none+h2c, name=glob, headers=[EOS, :method=GET, :path=/pathPattern/glob/armeria, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=33b992ee, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/pathPattern/glob/armeria#GET] Response: {startTime=2021-06-24T02:51:25.960Z(1624503085960663), length=13B, duration=1181µs(1181544ns), totalDuration=1482µs(1482237ns), headers=[:status=200, content-type=text/plain; charset=utf-8, content-length=13]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=a59c72ca, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/node/node#POST] Request: {startTime=2021-06-24T02:51:25.970Z(1624503085970142), length=18B, duration=12833µs(12833602ns), scheme=none+h2c, name=json1, headers=[:method=POST, :path=/messageConverter/node/node, :scheme=http, :authority=127.0.0.1:64370, content-type=application/json; charset=utf-8, user-agent=armeria/1.8.0, content-length=18]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=a59c72ca, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/node/node#POST] Response: {startTime=2021-06-24T02:51:25.982Z(1624503085982672), length=37B, duration=1255µs(1255743ns), totalDuration=13784µs(13784993ns), headers=[:status=200, content-type=application/json; charset=utf-8, content-length=37]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=b5c48c00, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/node/obj#POST] Request: {startTime=2021-06-24T02:51:25.995Z(1624503085995256), length=18B, duration=2348µs(2348995ns), scheme=none+h2c, name=json2, headers=[:method=POST, :path=/messageConverter/node/obj, :scheme=http, :authority=127.0.0.1:64370, content-type=application/json; charset=utf-8, user-agent=armeria/1.8.0, content-length=18]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=b5c48c00, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/node/obj#POST] Response: {startTime=2021-06-24T02:51:25.997Z(1624503085997388), length=37B, duration=1194µs(1194272ns), totalDuration=3325µs(3325991ns), headers=[:status=200, content-type=application/json; charset=utf-8, content-length=37]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=6c411d0a, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/obj/obj#POST] Request: {startTime=2021-06-24T02:51:26.001Z(1624503086001793), length=18B, duration=19211µs(19211509ns), scheme=none+h2c, name=json3, headers=[:method=POST, :path=/messageConverter/obj/obj, :scheme=http, :authority=127.0.0.1:64370, content-type=application/json; charset=utf-8, user-agent=armeria/1.8.0, content-length=18]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=6c411d0a, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/obj/obj#POST] Response: {startTime=2021-06-24T02:51:26.020Z(1624503086020655), length=37B, duration=1309µs(1309934ns), totalDuration=20170µs(20170029ns), headers=[:status=200, content-type=application/json; charset=utf-8, content-length=37]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=24e0e72b, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/obj/future#POST] Request: {startTime=2021-06-24T02:51:26.023Z(1624503086023748), length=18B, duration=2920µs(2920001ns), scheme=none+h2c, name=json4, headers=[:method=POST, :path=/messageConverter/obj/future, :scheme=http, :authority=127.0.0.1:64370, content-type=application/json; charset=utf-8, user-agent=armeria/1.8.0, content-length=18]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=24e0e72b, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/obj/future#POST] Response: {startTime=2021-06-24T02:51:26.028Z(1624503086028231), length=37B, duration=939µs(939886ns), totalDuration=5421µs(5421180ns), headers=[:status=200, content-type=application/json; charset=utf-8, content-length=37]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=668a2600, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/custom#POST] Request: {startTime=2021-06-24T02:51:26.031Z(1624503086031321), length=7B, duration=800µs(800559ns), scheme=none+h2c, name=custom, headers=[:method=POST, :path=/messageConverter/custom, :scheme=http, :authority=127.0.0.1:64370, content-type=text/plain; charset=utf-8, user-agent=armeria/1.8.0, content-length=7]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=668a2600, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/messageConverter/custom#POST] Response: {startTime=2021-06-24T02:51:26.031Z(1624503086031926), length=15B, duration=1020µs(1020001ns), totalDuration=1624µs(1624955ns), headers=[:status=200, content-type=text/plain; charset=utf-8, content-length=15]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=3b25cf88, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/injection/param/armeria/1#GET] Request: {startTime=2021-06-24T02:51:26.035Z(1624503086035732), length=0B, duration=5122µs(5122656ns), scheme=none+h2c, name=param, headers=[EOS, :method=GET, :path=/injection/param/armeria/1?gender=male, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=3b25cf88, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/injection/param/armeria/1#GET] Response: {startTime=2021-06-24T02:51:26.039Z(1624503086039725), length=20B, duration=1572µs(1572569ns), totalDuration=5563µs(5563390ns), headers=[:status=200, content-type=application/json; charset=utf-8, content-length=20]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=f34a7820, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/injection/header#GET] Request: {startTime=2021-06-24T02:51:26.051Z(1624503086051361), length=0B, duration=5637µs(5637725ns), scheme=none+h2c, name=header, headers=[EOS, :method=GET, :path=/injection/header, :scheme=http, :authority=127.0.0.1:64370, x-armeria-text=armeria, x-armeria-sequence=1, x-armeria-sequence=2, user-agent=armeria/1.8.0, cookie=a=1; b=1]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=f34a7820, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/injection/header#GET] Response: {startTime=2021-06-24T02:51:26.056Z(1624503086056081), length=27B, duration=1257µs(1257896ns), totalDuration=5975µs(5975398ns), headers=[:status=200, content-type=application/json; charset=utf-8, content-length=27]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=766c23ac, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/locallySpecific#GET] Request: {startTime=2021-06-24T02:51:26.061Z(1624503086061293), length=0B, duration=1761µs(1761709ns), scheme=none+h2c, name=exception1, headers=[EOS, :method=GET, :path=/exception/locallySpecific, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=766c23ac, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/locallySpecific#GET] Response: {startTime=2021-06-24T02:51:26.061Z(1624503086061828), length=23B, duration=1671µs(1671451ns), totalDuration=2205µs(2205793ns), headers=[:status=503, content-type=text/plain; charset=utf-8, content-length=23]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=0d922ed6, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/locallyGeneral#GET] Request: {startTime=2021-06-24T02:51:26.064Z(1624503086064994), length=0B, duration=1759µs(1759730ns), scheme=none+h2c, name=exception2, headers=[EOS, :method=GET, :path=/exception/locallyGeneral, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=0d922ed6, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/locallyGeneral#GET] Response: {startTime=2021-06-24T02:51:26.065Z(1624503086065337), length=15B, duration=1884µs(1884836ns), totalDuration=2229µs(2229151ns), headers=[:status=400, content-type=text/plain; charset=utf-8, content-length=15]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=e2fa96b9, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/globallyGeneral#GET] Request: {startTime=2021-06-24T02:51:26.068Z(1624503086068712), length=0B, duration=1329µs(1329209ns), scheme=none+h2c, name=exception3, headers=[EOS, :method=GET, :path=/exception/globallyGeneral, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=e2fa96b9, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/globallyGeneral#GET] Response: {startTime=2021-06-24T02:51:26.069Z(1624503086069049), length=13B, duration=1416µs(1416563ns), totalDuration=1755µs(1755257ns), headers=[:status=403, content-type=text/plain; charset=utf-8, content-length=13]}
+[armeria-common-worker-nio-2-2] WARN com.linecorp.armeria.internal.server.annotation.DefaultExceptionHandler - [sreqId=a6996ba0, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/default#GET] Failed processing a request:
+java.lang.IllegalArgumentException
+	at example.armeria.server.annotated.ExceptionHandlerService.exception4(ExceptionHandlerService.java:63)
+	at com.linecorp.armeria.internal.server.annotation.AnnotatedService.invoke(AnnotatedService.java:348)
+	at com.linecorp.armeria.internal.server.annotation.AnnotatedService.lambda$serve0$6(AnnotatedService.java:323)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:680)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:658)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2158)
+	at com.linecorp.armeria.internal.server.annotation.AnnotatedService.serve0(AnnotatedService.java:327)
+	at com.linecorp.armeria.internal.server.annotation.AnnotatedService.serve(AnnotatedService.java:272)
+	at com.linecorp.armeria.internal.server.annotation.AnnotatedService.serve(AnnotatedService.java:87)
+	at com.linecorp.armeria.server.logging.LoggingService.serve(LoggingService.java:127)
+	at com.linecorp.armeria.server.logging.LoggingService.serve(LoggingService.java:50)
+	at com.linecorp.armeria.internal.server.annotation.AnnotatedService$ExceptionFilteredHttpResponseDecorator.serve(AnnotatedService.java:473)
+	at com.linecorp.armeria.server.HttpServerHandler.handleRequest(HttpServerHandler.java:387)
+	at com.linecorp.armeria.server.HttpServerHandler.channelRead(HttpServerHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at com.linecorp.armeria.server.Http2RequestDecoder.onHeadersRead(Http2RequestDecoder.java:162)
+	at com.linecorp.armeria.server.Http2RequestDecoder.onHeadersRead(Http2RequestDecoder.java:182)
+	at io.netty.handler.codec.http2.Http2FrameListenerDecorator.onHeadersRead(Http2FrameListenerDecorator.java:48)
+	at io.netty.handler.codec.http2.Http2EmptyDataFrameListener.onHeadersRead(Http2EmptyDataFrameListener.java:63)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:420)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onHeadersRead(DefaultHttp2ConnectionDecoder.java:348)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader$2.processFragment(DefaultHttp2FrameReader.java:483)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readHeadersFrame(DefaultHttp2FrameReader.java:491)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:254)
+	at io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:160)
+	at io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:181)
+	at io.netty.handler.codec.http2.DecoratingHttp2ConnectionDecoder.decodeFrame(DecoratingHttp2ConnectionDecoder.java:63)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:378)
+	at io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:438)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:508)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:447)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=a6996ba0, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/default#GET] Request: {startTime=2021-06-24T02:51:26.071Z(1624503086071752), length=0B, duration=6413µs(6413015ns), scheme=none+h2c, name=exception4, headers=[EOS, :method=GET, :path=/exception/default, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=a6996ba0, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/default#GET] Response: {startTime=2021-06-24T02:51:26.076Z(1624503086076990), length=15B, duration=1599µs(1599598ns), totalDuration=6831µs(6831774ns), headers=[:status=400, content-type=text/plain; charset=utf-8, content-length=15]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=a9d55a11, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/default/200#GET] Request: {startTime=2021-06-24T02:51:26.080Z(1624503086080008), length=0B, duration=2957µs(2957315ns), scheme=none+h2c, name=exception5, headers=[EOS, :method=GET, :path=/exception/default/200, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=a9d55a11, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/default/200#GET] Response: {startTime=2021-06-24T02:51:26.081Z(1624503086081768), length=6B, duration=1749µs(1749098ns), totalDuration=3506µs(3506835ns), headers=[:status=200, content-type=text/plain; charset=utf-8, content-length=6]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=b61846c0, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/default/409#GET] Request: {startTime=2021-06-24T02:51:26.084Z(1624503086084582), length=0B, duration=1487µs(1487065ns), scheme=none+h2c, name=exception5, headers=[EOS, :method=GET, :path=/exception/default/409, :scheme=http, :authority=127.0.0.1:64370, user-agent=armeria/1.8.0]}
+[armeria-common-worker-nio-2-2] INFO com.linecorp.armeria.server.logging.LoggingService - [sreqId=b61846c0, chanId=4dbebf54, raddr=127.0.0.1:64372, laddr=127.0.0.1:64370][h2c://anseongjin-ui-macbookpro.local/exception/default/409#GET] Response: {startTime=2021-06-24T02:51:26.084Z(1624503086084968), length=12B, duration=1510µs(1510233ns), totalDuration=1896µs(1896496ns), headers=[:status=409, content-type=text/plain; charset=utf-8, content-length=12]}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2021. 6. 24. 오전 11:51:28</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+example/armeria/server/annotated/InjectionService.java
+ example.armeria.server.annotated.InjectionService
+ example.armeria.server.annotated.InjectionService$Gender
+example/armeria/server/annotated/MessageConverterService.java
+ example.armeria.server.annotated.MessageConverterService
+ example.armeria.server.annotated.MessageConverterService$1
+ example.armeria.server.annotated.MessageConverterService$CustomRequestConverter
+ example.armeria.server.annotated.MessageConverterService$CustomResponseConverter
+ example.armeria.server.annotated.MessageConverterService$Request
+ example.armeria.server.annotated.MessageConverterService$Response
+example/armeria/server/annotated/ExceptionHandlerService.java
+ example.armeria.server.annotated.ExceptionHandlerService
+ example.armeria.server.annotated.ExceptionHandlerService$GlobalExceptionHandler
+ example.armeria.server.annotated.ExceptionHandlerService$GloballyGeneralException
+ example.armeria.server.annotated.ExceptionHandlerService$LocalExceptionHandler
+ example.armeria.server.annotated.ExceptionHandlerService$LocallyGeneralException
+ example.armeria.server.annotated.ExceptionHandlerService$LocallySpecificException
+example/armeria/server/annotated/Main.java
+ example.armeria.server.annotated.Main
+example/armeria/server/annotated/PathPatternService.java
+ example.armeria.server.annotated.PathPatternService

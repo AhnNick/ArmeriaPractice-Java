@@ -1,0 +1,2 @@
+example/armeria/server/annotated/AnnotatedServiceTest.java
+ example.armeria.server.annotated.AnnotatedServiceTest
